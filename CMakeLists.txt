@@ -25,5 +25,11 @@ install(PROGRAMS
     DESTINATION lib/${PROJECT_NAME}
 )
 
+# Add Simple Pick and Place example
+install(PROGRAMS
+    simple_wrapper/pick_and_place.py
+    DESTINATION lib/${PROJECT_NAME}
+)
+
 # Setup the project
 ament_package()
